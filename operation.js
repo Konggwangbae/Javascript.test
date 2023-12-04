@@ -31,3 +31,11 @@ console.log(userName.length);
 // length = 문자열의 갯수를 표기한다.
 console.log(userName.toUpperCase());
 // 대문자로 console창에 띄워준다.
+console.log(userName.charAt());
+// 첫 번째 단어를 띄워준다.
+
+let hobbies = ['Sports', 'Cooking'];
+console.log(hobbies)
+// 출력시 console창에 ['Sports', 'Cooking']으로 출력이 된다.
+console.log(hobbies.length)
+// 출력시 console창에 2라고 나온다. {30줄 참고}
