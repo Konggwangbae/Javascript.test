@@ -10,22 +10,24 @@ let job = {
 let totalAduletYears;
 
 function clacuateAdultYears(userAge) {
-    return  age - 18;
+    let result
+    result = userAge - 18;
+    return  result;
 // 가독성을 위해서 들여쓰기를 하는 것이 좋다.
 }
 
 totalAduletYears = clacuateAdultYears(age);
-alert(totalAduletYears);
+console.log(totalAduletYears);
 
 age = 45;
 totalAduletYears =  clacuateAdultYears(age);
 
-alert(totalAduletYears);
+console.log(totalAduletYears);
 
 let person = {
     name: 'Max', //property
     greet() { //Method
-        alert('Hello');
+        console.log('Hello');
         // 객체 안의 함수를 메서드라고 부른다.
     }
 };
